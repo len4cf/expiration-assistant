@@ -7,11 +7,11 @@ so i built this basic rest api to eventually power an alexa skill, so we can sim
 
 ### current features
 
-- register products with name, expiry date, quantity, opening date and storage location (fridge, freezer, pantry…).
-- list products, soonest to expire first, filtered by status (active, consumed or discarded).
-- check what's expiring soon. you choose how many days ahead to look (default 3), and products that have already expired are included.
-- view a single product, with days until expiry and whether it's already expired.
-- mark products as consumed or discarded, with the date it happened recorded for future waste history.
+- add products with their name, expiry date, quantity, opening date, and where they're stored (fridge, freezer, pantry, etc.).
+- list all products, with the ones expiring soonest first, and filter them by status (active, consumed, or discarded).
+- check what's expiring soon. you can choose how many days ahead to look (3 by default), and already expired products are included too.
+- view a product and see how many days it has left or if it's already expired.
+- mark products as consumed or discarded and keep track of when it happened for future waste tracking.
 
 ### planned
 
